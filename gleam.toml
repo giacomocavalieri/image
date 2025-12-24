@@ -1,0 +1,13 @@
+name = "image"
+version = "1.0.0"
+
+description = "Greyscale image dithering"
+licences = ["Apache-2.0"]
+repository = { type = "github", user = "giacomocavalieri", repo = "image" }
+
+[dependencies]
+gleam_stdlib = ">= 0.44.0 and < 2.0.0"
+gleam_deque = ">= 1.0.0 and < 2.0.0"
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
